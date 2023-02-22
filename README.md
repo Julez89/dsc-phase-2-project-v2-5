@@ -1,34 +1,20 @@
-# Phase 2 Project Description
-
-Another module down - you're almost half way there!
-
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-2-project-v2-5/main/halfway-there.gif)
-
-All that remains in Phase 2 is to put your newfound data science skills to use with a large project!
-
-In this project description, we will cover:
-
-* Project Overview: the project goal, audience, and dataset
-* Deliverables: the specific items you are required to produce for this project
-* Grading: how your project will be scored
-* Getting Started: guidance for how to begin working
+# Differences in sales prices of houses in King County
 
 ## Project Overview
 
-For this project, you will use multiple linear regression modeling to analyze house sales in a northwestern county.
+For this project, I used linear regression to show how certain house characteristics impact the price of a house in King County. I also used t-tests and ANOVA to analyse the differences in prices for specific groups of houses.
 
 ### Business Problem
-
-It is up to you to define a stakeholder and business problem appropriate to this dataset.
-
-If you are struggling to define a stakeholder, we recommend you complete a project for a real estate agency that helps homeowners buy and/or sell homes. A business problem you could focus on for this stakeholder is the need to provide advice to homeowners about how home renovations might increase the estimated value of their homes, and by what amount.
+A real estate firm in King County wants to win new customers by increasing the transparency when it comes to the sales price of houses. This applies on the one hand to customers who want to sell their homes to give them an early indication for how much money houses with comparable characteristics sell. On the other hand, it will give customers who plan to buy a home an indication how much budget they need to plan with.
+The real estate firm specifically wants to look at the following things:
+- What are the most important characteristics of a house that impact the sales price?
+- Are renovated houses more expensive than houses without renovation?
+- Do houses with a waterfront sell for more money?
+- Do houses with a basement sell for more monry?
 
 ### The Data
 
-This project uses the King County House Sales dataset, which can be found in  `kc_house_data.csv` in the data folder in this assignment's GitHub repository. The description of the column names can be found in `column_names.md` in the same folder. As with most real world data sets, the column names are not perfectly described, so you'll have to do some research or use your best judgment if you have questions about what the data means.
-
-It is up to you to decide what data from this dataset to use and how to use it. **If you are feeling overwhelmed or behind**, we recommend you **ignore** some or all of the following features:
-
+This project uses a subset of the King County House Sales dataset. As there are objects in the dataset that are outside of king county, we exclude those. Also, we excluded some outliers and  
 * `date`
 * `view`
 * `sqft_above`
