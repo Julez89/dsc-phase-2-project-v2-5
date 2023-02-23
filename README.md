@@ -1,5 +1,6 @@
 
 # Phase 2 Project Description
+![house](https://github.com/Julez89/dsc-phase-2-project-v2-5/blob/main/pictures/house.jpg)
 
 ## Project Overview
 
