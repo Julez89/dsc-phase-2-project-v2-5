@@ -86,11 +86,14 @@ H1: The price is different depending on the neighbourhood you live in.
 H0: There is no difference depending on where you live.
 
 ![ANOVA](https://github.com/Julez89/dsc-phase-2-project-v2-5/blob/main/pictures/anova.png)
+
 ANOVA shows that there is indeed a price difference depending on the neighbourhood you are in. Therefore, rejecting the null hypothesis. The prices vary from a mean of 580.0000 USD in the very low zipcodes and 2.9 mio USD in the very high zipcodes
 
 Hypothesis 2: The price of a house is higher if you have a waterfront 
 H0: The price is less or equal when you have a waterfront
+
 ![waterfront](https://github.com/Julez89/dsc-phase-2-project-v2-5/blob/main/pictures/waterfront.png)
+
 Rejecting the null hypothesis. If you have no waterfront, the mean price is exp(13.79) which are 974000 USD. If you have a waterfront, the mean price is exp(14.45) which is 1.88 Mio USD. In the boxplot you can see, that even with no waterfront, you have a lot of outliers on both sides.
 
 Hypothesis 3: The price of a house is higher if you have a basement 
