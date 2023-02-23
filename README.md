@@ -47,11 +47,16 @@ Usually, the location of the property and the neighbourhood are of high importan
 ![Location](https://github.com/Julez89/dsc-phase-2-project-v2-5/blob/main/pictures/Map%20Zip%20Codes.png)
 
 Looking at the histogram of my numeric variables, we can see that after log transforming, the price and squarefoot living/above look normally distributed. Bedrooms and bathrooms have several outliers even though the majority have around 3 bedrooms and 3 bathrooms. Floors, condition and age of the property are not normally distributed. 
-Further looking at the scatter plot, the most promising variables seem to be grade, sqft above and sqft living. 
+Further looking at the scatter plot, the most promising variables seem to be grade, sqft above and sqft living.
+ 
 ![Sqft above](https://github.com/Julez89/dsc-phase-2-project-v2-5/blob/main/pictures/sqft%20above.png)
+
 ![Grade](https://github.com/Julez89/dsc-phase-2-project-v2-5/blob/main/pictures/Grade.png)
+
 Surprisingly, age of the object does not seem to be correlated with the price. 
+
 ![Age](https://github.com/Julez89/dsc-phase-2-project-v2-5/blob/main/pictures/age.png)
+
 I dropped sqft living after detecting an issue with multicollinearity between sqft living and sqft above.
 
 ## Modeling
