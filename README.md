@@ -117,5 +117,7 @@ With the model, I have identified several factors that are important in determin
 
 ## This repository
 My technical code is stored in this [jupyter notebook](https://github.com/Julez89/dsc-phase-2-project-v2-5/blob/main/Deliverables/notebook.pdf)
+
 My presentation can be found [here](https://github.com/Julez89/dsc-phase-2-project-v2-5/blob/main/Deliverables/presentation.pdf)
+
 My github repository is [here](https://github.com/Julez89/dsc-phase-2-project-v2-5/blob/main/Deliverables/github.pdf)
