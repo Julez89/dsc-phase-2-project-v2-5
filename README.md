@@ -114,3 +114,8 @@ Rejecting the null hypothesis. If you have not renovated, the mean price is exp(
 
 With the model, I have identified several factors that are important in determining the price of a house. I found out that houses with a waterfront, basement and which have been renovated sell for more than houses without those attributes. Nevertheless, my model has limitations and should be further improved. It is better in predicting houses with average prices and is off significantly for comparably low and high house prices.
 
+
+## This repository
+My technical code is stored in this [jupyter notebook](https://github.com/Julez89/dsc-phase-2-project-v2-5/blob/main/Deliverables/notebook.pdf)
+My presentation can be found [here](https://github.com/Julez89/dsc-phase-2-project-v2-5/blob/main/Deliverables/presentation.pdf)
+My github repository is [here](https://github.com/Julez89/dsc-phase-2-project-v2-5/blob/main/Deliverables/github.pdf)
